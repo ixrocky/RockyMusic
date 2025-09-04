@@ -77,7 +77,7 @@ async def gen_thumb(videoid: str):
         final_bg = blurred_bg.copy()
 
         try:
-            overlay_path = "SaregamaMusic/assets/ShrutiBots.png"
+            overlay_path = "ROCKY_MUSIC/assets/ShrutiBots.png"
             overlay_img = Image.open(overlay_path).convert("RGBA")
             overlay_img = overlay_img.resize((1280, 720))
             final_bg.paste(overlay_img, (0, 0), overlay_img)
@@ -102,8 +102,8 @@ async def gen_thumb(videoid: str):
         info_y = thumb_y
         max_text_width = 1280 - info_x - 80
 
-        font_path_regular = "SaregamaMusic/assets/font2.ttf"
-        font_path_bold = "SaregamaMusic/assets/font3.ttf"
+        font_path_regular = "ROCKY_MUSIC/assets/font2.ttf"
+        font_path_bold = "ROCKY_MUSIC/assets/font3.ttf"
 
         limited_title = truncate_ellipsis(title, max_chars=15 if len(title) > 15 else max(10, len(title)))
 
