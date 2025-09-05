@@ -17,7 +17,7 @@ from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
 from youtubesearchpython.__future__ import VideosSearch
 
 from config import YOUTUBE_IMG_URL
-from RessoMusic import app
+from ROCKY_MUSIC import app
 
 logging.basicConfig(level=logging.INFO)
 
@@ -259,4 +259,5 @@ async def gen_thumb(videoid: str):
         logging.error(f"Error generating thumbnail for video {videoid}: {e}")
         traceback.print_exc()
         return None
+
 
