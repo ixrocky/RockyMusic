@@ -31,7 +31,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002311769574))
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xbit_IFLKRN83AEQUFVI7ABVEV5 Get from  https://t.me/tgmusic_apibot
+YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xb_IFLKRN83AEQUFVI7ABVEV5 Get from  https://t.me/tgmusic_apibot
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5909658683))
