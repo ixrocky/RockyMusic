@@ -15,9 +15,9 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from youtubesearchpython.__future__ import VideosSearch, CustomSearch
 import base64
-from SaregamaMusic import LOGGER
-from SaregamaMusic.utils.database import is_on_off
-from SaregamaMusic.utils.formatters import time_to_seconds
+from ROCKY_MUSIC import LOGGER
+from ROCKY_MUSIC.utils.database import is_on_off
+from ROCKY_MUSIC.utils.formatters import time_to_seconds
 from config import YT_API_KEY, YTPROXY_URL as YTPROXY
 
 logger = LOGGER(__name__)
